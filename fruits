@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+	int fruits;
+	printf("\"apple\"\n\"orange\"\n\"grapes\"\n\"pomegranate\"\n");
+	return 0;
+}
