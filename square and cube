@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	float num,square,cube;
+	printf("enter any integer");
+	scanf("%f",&num);
+	square = num*num;
+	cube=num*num*num;
+	printf("\n square of %f is :%f",num,square);
+	printf("\n cube of %f is :%f",num,cube);
+	return 0;
+}
