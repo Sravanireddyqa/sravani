@@ -1,0 +1,16 @@
+#include<stdio.h>
+struct structure
+{
+    int n;
+    float b;
+}a;
+int main()
+{
+    printf("enter 1st number:");
+    scanf("%d",&a.n);
+    printf("enter 2nd number:");
+    scanf("%f",&a.b);
+    float sum=a.n+a.b;
+    printf("sum of two number =%.2f",sum);
+    return 0;
+}
