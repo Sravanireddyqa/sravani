@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int n,i,count=0,  arr[n];
+	printf("enter the size of array\n");
+	scanf("%d",&n);
+	printf("enter the elements of array\n");
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&arr[i]);
+		if(arr[i]<0)
+		{
+			count++;
+		}
+	}
+	printf("the number of negitive numbers in the array is %d\n",count);
+	return 0;
+}
