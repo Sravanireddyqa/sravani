@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int x,y,z;
+	printf("enter a first number");
+	scanf("%d",&x);
+	printf("enter a second number");
+	scanf("%d",&y);
+	printf("enter a third number");
+	scanf("%d",&z);
+	printf("before swap:x=%d,y=%d,z=%d\n",x,y,z);
+	swap(&x,&y,&z);
+	printf("after swap:x=%d,y=%d,z=%d\n",x,y,z);
+	return 0;
+}
+void swap(int*a,int*b,int*c)
+{
+	int tem=*a;
+	*a=*c;
+	*c=*b;
+	*b= tem;
+}
