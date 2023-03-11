@@ -1,0 +1,19 @@
+#include<stdio.h>
+void rev_num()
+{
+	int num,rev_num=0,remainder;
+	printf("enter the integer");
+	scanf("%d",&num);
+	while(num!=0)
+	{
+		remainder=num%10;
+		rev_num=rev_num*10+remainder;
+		num=num/10;
+	}
+	printf("the reverse of number is :%d",rev_num);
+	return 0;
+}
+void main()
+{
+	rev_num();
+}
