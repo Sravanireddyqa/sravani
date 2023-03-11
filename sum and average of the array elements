@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int arr[7]={16,18,27,16,23,21,19};
+	int i,sum=0;
+	float average;
+	for(i=0;i<7;i++)
+	{
+		sum+=arr[i];
+	}
+	average=(float)sum/7;
+	printf("sum of the array elements is:%d\n",sum);
+	printf("avarage of array elements is:%f\n",average);
+	return 0;
+}
